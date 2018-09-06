@@ -1,4 +1,13 @@
 @media (max-width: 768px) {
+  #aboutUs {
+    .about {
+      .about_text {
+        height: 100%;
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
   header {
     padding: 10px 0;
     .navigation {
@@ -34,7 +43,27 @@
       margin: 50px;
       padding: 0 60px;
       .item {
-        margin-bottom: 15px;
+        margin: 15px auto;
+      }
+    }
+  }
+  #aboutUs {
+    .about {
+      .about_pic {
+        display: none;
+      }
+      .about_text {
+        margin: 0 auto;
+      }
+    }
+  }
+  #focus {
+    .focus_service {
+      .web,
+      .ux,
+      .photography,
+      .app {
+        margin: 10px auto;
       }
     }
   }
@@ -44,6 +73,14 @@
     .navigation {
       a {
         font-size: 12px;
+      }
+    }
+  }
+  #aboutUs {
+    .about {
+      .about_pic {
+        width: 450px;
+        height: 600px;
       }
     }
   }

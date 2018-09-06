@@ -1,0 +1,56 @@
+#focus {
+  background-color: #f7f7f7;
+  padding-bottom: 150px;
+  .focus-title {
+    text-align: center;
+    padding-top: 180px;
+    h2 {
+      font-size: 50px;
+      font-family: 'Libre Baskerville', serif;
+      font-weight: bold;
+      margin: 0;
+      color: #313131;
+    }
+    p {
+      font-size: 18px;
+      margin-top: 20px;
+      color: #616161;
+    }
+  }
+  .focus_service {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 80px;
+    .web,
+    .ux,
+    .photography,
+    .app {
+      width: 260px;
+      height: 350px;
+      background-color: #fff;
+      padding-top: 65px;
+      h3 {
+        font-size: 20px;
+        font-weight: 500;
+      }
+      p {
+        margin-top: 40px;
+        line-height: 1.5em;
+        color: #616161;
+      }
+    }
+    .web {
+      border-bottom: 3px solid #fc5f45;
+    }
+    .ux {
+      border-bottom: 3px solid #38c695;
+    }
+    .photography {
+      border-bottom: 3px solid #b27cf5;
+    }
+    .app {
+      border-bottom: 3px solid #feb960;
+    }
+  }
+}
