@@ -1,0 +1,51 @@
+#banner {
+  padding: 170px 0;
+  background: url(../img/fon-bg.png) no-repeat center / cover,url(../img/bg-first.jpg) no-repeat center / cover;
+  text-align: center;
+  .title {
+    h1 {
+      margin: 0;
+      font-family: 'Libre Baskerville', serif;
+      font-size: 70px;
+      color: #fff;
+      font-weight: 400;
+    }
+    a {
+      text-decoration: none;
+      font-size: 16px;
+      color: #fff;
+      padding: 20px 40px;
+      display: inline-block;
+      background: #fc5f45;
+      border-radius: 30px;
+      margin-top: 50px;
+      box-shadow: 0 0 2px 3px lightgrey;
+      width: 200px;
+      transition: 1s ease-out;
+      &:hover {
+        background: linear-gradient(to right, #38c695, #b27cf5, #feb960);
+        transition: 1s ease-out;
+      }
+    }
+  }
+  .banner-items {
+    display: flex;
+    justify-content: center;
+    margin: 80px auto;
+    img {
+      margin-bottom: 40px;
+    }
+    .item {
+      width: 215px;
+    }
+    .price {
+      color: #38c695;
+    }
+    .time {
+      color: #b27cf5;
+    }
+    .satisfaction {
+      color: #feb960;
+    }
+  }
+}
