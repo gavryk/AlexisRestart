@@ -67,6 +67,14 @@
       }
     }
   }
+  #portfolio {
+    .portfolio-items {
+      .item {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
 }
 @media (max-width: 992px) {
   header {
@@ -90,6 +98,15 @@
     .navigation {
       a {
         margin-right: 5px;
+      }
+    }
+  }
+  #portfolio {
+    .portfolio-items {
+      .item {
+       img {
+         width: 100%;
+       }
       }
     }
   }
