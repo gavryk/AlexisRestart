@@ -1,0 +1,22 @@
+#stats {
+  height: 465px;
+  background: url(../img/bg-second.jpg) no-repeat center / cover;
+  padding-top: 145px;
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: #fff;
+    p {
+      font-size: 15px;
+      margin-bottom: 35px;
+      margin-top: 30px;
+      color: #bdbdc0;
+    }
+    .points {
+      width: 560px;
+      height: 300px;
+      margin: 0 auto;
+    }
+  }
+}
