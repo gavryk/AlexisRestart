@@ -1,0 +1,119 @@
+#work-step {
+  padding: 150px 0;
+  overflow: hidden;
+  .step-title {
+    text-align: center;
+    p {
+      font-size: 18px;
+      color: #616161;
+      margin-top: 30px;
+    }
+  }
+  .work-items {
+    margin-top: 130px;
+    .item {
+      width: 560px;
+      height: 300px;
+      margin: 0 auto;
+      cursor: pointer;
+      .hover-text {
+        width: 460px;
+        height: 300px;
+        background-color: #fff;
+        display: flex;
+        padding: 40px 40px 55px 40px;
+        box-shadow: 0 0 10px 1px lightgrey;
+        .work-text {
+          padding-left: 50px;
+          h3 {
+            font-size: 25px;
+          }
+          p {
+            font-size: 15px;
+            color: #616161;
+            line-height: 1.6em;
+            width: 265px;
+          }
+        }
+        .number {
+          width: 60px;
+          height: 60px;
+          color: #e0e0e0;
+        }
+      }
+    }
+    .project {
+      position: relative;
+      background: url(../img/work.jpg);
+      .project-txt {
+        position: absolute;
+        top:-70px;
+        left: -390px;
+        border-bottom: 3px solid #fc5f45;
+        transition: 1s ease-out;
+        transform: translateX(-110%);
+      }
+      &:hover {
+        .project-txt {
+          transition: 1s ease-out;
+          transform: translateX(0%);
+        }
+      }
+    }
+    .planning {
+      position: relative;
+      background: url(../img/work2.jpg);
+      .planning-txt {
+        position: absolute;
+        top: -70px;
+        right: -390px;
+        border-bottom: 3px solid #38c695;
+        transition: 1s ease-out;
+        transform: translateX(110%);
+        z-index: 10;
+      }
+      &:hover {
+        .planning-txt {
+          transition: 1s ease-out;
+          transform: translateX(0%);
+        }
+      }
+    }
+    .design {
+      position: relative;
+      background: url(../img/work3.jpg);
+      .design-txt {
+        position: absolute;
+        top:-70px;
+        left: -390px;
+        border-bottom: 3px solid #b27cf5;
+        transition: 1s ease-out;
+        transform: translateX(-110%);
+      }
+      &:hover {
+        .design-txt {
+          transition: 1s ease-out;
+          transform: translateX(0%);
+        }
+      }
+    }
+    .development {
+      position: relative;
+      background: url(../img/work4.jpg);
+      .development-txt {
+        position: absolute;
+        top: -70px;
+        right: -390px;
+        border-bottom: 3px solid #feb960;
+        transition: 1s ease-out;
+        transform: translateX(110%);
+      }
+      &:hover {
+        .development-txt {
+          transition: 1s ease-out;
+          transform: translateX(0%);
+        }
+      }
+    }
+  }
+}

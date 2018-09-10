@@ -75,6 +75,28 @@
       }
     }
   }
+  #work-step {
+    .work-items {
+      .item {
+        width: 90%;
+        .hover-text {
+          width: 100%;
+          padding: 0;
+          display: flex;
+          flex-direction: column;
+          .work-text {
+            padding: 0;
+            h3 {
+              font-size: 18px;
+            }
+            p {
+              font-size: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 @media (max-width: 992px) {
   header {
@@ -96,6 +118,24 @@
     .teammate {
       .teammate-card {
         margin: 50px auto;
+      }
+      .info {
+        display: none;
+      }
+    }
+  }
+  #work-step {
+    .work-items {
+      .item {
+        overflow: hidden;
+        .project-txt,
+        .design-txt {
+          position: static;
+        }
+        .planning-txt,
+        .development-txt {
+          position: static;
+        }
       }
     }
   }
