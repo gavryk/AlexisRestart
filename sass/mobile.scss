@@ -97,6 +97,24 @@
       }
     }
   }
+  #price {
+    .price-title {
+      h2 {
+        font-size: 32px;
+      }
+    }
+    .price-cards {
+      .starter,
+      .ultimate,
+      .professional {
+        width: 90%;
+        margin: 0 auto;
+        a {
+          padding: 15px 5px;
+        }
+      }
+    }
+  }
 }
 @media (max-width: 992px) {
   header {
@@ -154,6 +172,15 @@
        img {
          width: 100%;
        }
+      }
+    }
+  }
+  #price {
+    .price-cards {
+      .starter,
+      .ultimate,
+      .professional {
+        padding: 0;
       }
     }
   }
