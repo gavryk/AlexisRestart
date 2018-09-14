@@ -108,10 +108,43 @@
       .ultimate,
       .professional {
         width: 90%;
-        margin: 0 auto;
+        margin: 20px auto;
         a {
           padding: 15px 5px;
         }
+      }
+    }
+  }
+  #citate {
+    .citate-title {
+      padding: 0;
+    }
+    .citate-flex {
+      .citate-img{
+        display: none;
+      }
+      .citate {
+        height: 100%;
+      }
+    }
+  }
+  #select {
+    .select-items {
+      .growth,
+      .revisions,
+      .perfection,
+      .smart,
+      .deadline,
+      .award {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+    }
+    .call {
+      p {
+        display: none;
       }
     }
   }
@@ -157,6 +190,9 @@
       }
     }
   }
+  #citate {
+    height: 100%;
+    }
 }
 @media (max-width: 1200px) {
   header {
