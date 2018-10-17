@@ -1,0 +1,30 @@
+#aboutUs {
+  padding: 150px 0;
+  .about {
+    display: flex;
+    align-items: center;
+    .about_pic {
+      width: 555px;
+      height: 700px;
+      background: url(../img/About.jpg) no-repeat center / cover;
+      border: 10px solid rgba(163, 163, 163, 0.8);
+    }
+    .about_text {
+      width: 650px;
+      height: 550px;
+      box-shadow: 3px 0px 15px 0px lightgrey;
+      padding: 100px 80px;
+      background-color: #fff;
+      margin-left: -60px;
+      border-bottom: 3px solid;
+      border-image: linear-gradient(to right, #fc5f45 25%, #38c695 50%, #b27cf5 75%, #feb960 100%);
+      border-image-slice: 1;
+      p {
+        font-size: 15px;
+        line-height: 1.5em;
+        margin-top: 50px;
+        color: #8b8b8b;
+      }
+    }
+  }
+}

@@ -1,0 +1,229 @@
+@media (max-width: 768px) {
+  #aboutUs {
+    .about {
+      .about_text {
+        height: 100%;
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  header {
+    padding: 10px 0;
+    .navigation {
+      justify-content: center;
+      label {
+        display: block;
+      }
+      input {
+        &:checked {
+          ~ nav {
+            transform: translateY(0%);
+            transition: 1s ease-out;
+            opacity: 1;
+          }
+        }
+      }
+      nav {
+        position: absolute;
+        top: 30px;
+        opacity: 0;
+        transform: translateY(-170%);
+        transition: 0.5s ease-out;
+        a {
+          margin-right: 3px;
+          color: #fff;
+          font-size: 10px;
+        }
+      }
+    }
+  }
+  #banner {
+    .banner-items {
+      margin: 50px;
+      padding: 0 60px;
+      .item {
+        margin: 15px auto;
+      }
+    }
+  }
+  #aboutUs {
+    .about {
+      .about_pic {
+        display: none;
+      }
+      .about_text {
+        margin: 0 auto;
+      }
+    }
+  }
+  #focus {
+    .focus_service {
+      .web,
+      .ux,
+      .photography,
+      .app {
+        margin: 10px auto;
+      }
+    }
+  }
+  #portfolio {
+    .portfolio-items {
+      .item {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+  #work-step {
+    .work-items {
+      .item {
+        width: 90%;
+        .hover-text {
+          width: 100%;
+          padding: 0;
+          display: flex;
+          flex-direction: column;
+          .work-text {
+            padding: 0;
+            h3 {
+              font-size: 18px;
+            }
+            p {
+              font-size: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+  #price {
+    .price-title {
+      h2 {
+        font-size: 32px;
+      }
+    }
+    .price-cards {
+      .starter,
+      .ultimate,
+      .professional {
+        width: 90%;
+        margin: 20px auto;
+        a {
+          padding: 15px 5px;
+        }
+      }
+    }
+  }
+  #citate {
+    .citate-title {
+      padding: 0;
+    }
+    .citate-flex {
+      .citate-img{
+        display: none;
+      }
+      .citate {
+        height: 100%;
+      }
+    }
+  }
+  #select {
+    .select-items {
+      .growth,
+      .revisions,
+      .perfection,
+      .smart,
+      .deadline,
+      .award {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+    }
+    .call {
+      p {
+        display: none;
+      }
+    }
+  }
+}
+@media (max-width: 992px) {
+  header {
+    .navigation {
+      a {
+        font-size: 12px;
+      }
+    }
+  }
+  #aboutUs {
+    .about {
+      .about_pic {
+        width: 450px;
+        height: 600px;
+      }
+    }
+  }
+  #team {
+    .teammate {
+      .teammate-card {
+        margin: 50px auto;
+      }
+      .info {
+        display: none;
+      }
+    }
+  }
+  #work-step {
+    .work-items {
+      .item {
+        overflow: hidden;
+        .project-txt,
+        .design-txt {
+          position: static;
+        }
+        .planning-txt,
+        .development-txt {
+          position: static;
+        }
+      }
+    }
+  }
+  #citate {
+    height: 100%;
+    }
+  #blog {
+    .blog-photo {
+      margin: 0 auto;
+      height: 100%;
+    }
+  }
+}
+@media (max-width: 1200px) {
+  header {
+    .navigation {
+      a {
+        margin-right: 5px;
+      }
+    }
+  }
+  #portfolio {
+    .portfolio-items {
+      .item {
+       img {
+         width: 100%;
+       }
+      }
+    }
+  }
+  #price {
+    .price-cards {
+      .starter,
+      .ultimate,
+      .professional {
+        padding: 0;
+      }
+    }
+  }
+}
